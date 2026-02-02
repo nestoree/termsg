@@ -47,6 +47,8 @@ openssl genrsa -out [tu_nombre].key 2048
 openssl req -new -key [tu_nombre].key -out [tu_nombre].csr -subj "/C=ES/ST=[CIUDAD]/L=[Localidad]/O=ChatTerm/OU=ChatTermUnit/CN=[tu_nombre]"
 openssl x509 -req -in [tu_nombre].csr -CA ca.crt -CAkey ca.key -CAcreateserial -out [tu_nombre].crt -days 365
 ```
+Si capturas con un sniffer esto es lo que se ve:
+![image](https://github.com/nestoree/termsg/blob/main/images/snif_cert.png)
 
 ---
 
