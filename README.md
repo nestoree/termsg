@@ -48,6 +48,7 @@ openssl req -new -key [tu_nombre].key -out [tu_nombre].csr -subj "/C=ES/ST=[CIUD
 openssl x509 -req -in [tu_nombre].csr -CA ca.crt -CAkey ca.key -CAcreateserial -out [tu_nombre].crt -days 365
 ```
 Si capturas con un sniffer esto es lo que se ve:
+
 ![image](https://github.com/nestoree/termsg/blob/main/images/snif_cert.png)
 
 ---
