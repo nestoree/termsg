@@ -23,9 +23,9 @@ Está pensado como:
 
 ## 📦 Requisitos
 
-- Python **3.9+**
-- OpenSSL
-- Sistema operativo: Windows / Linux / macOS
+- ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
+- ![OpenSSL](https://img.shields.io/badge/OpenSSL-orange.svg)
+- ![Windows](https://img.shields.io/badge/Windows-blue.svg) ![Linux](https://img.shields.io/badge/Linux-Yellow.svg) ![MacOS](https://img.shields.io/badge/MacOS-grey.svg)
 
 ---
 
